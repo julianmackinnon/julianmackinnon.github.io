@@ -8,6 +8,14 @@
   --font-main: "Times New Roman", Times, serif;
 }
 
+/* Header Spacing */
+header h1 {
+  margin-top: 10px;    /* reduce top space */
+  margin-bottom: 10px; /* reduce bottom space */
+  font-size: 2rem;     /* optional: smaller title */
+}
+
+
 /* General Body Styling */
 body {
   font-family: var(--font-main);
