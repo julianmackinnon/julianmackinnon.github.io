@@ -66,4 +66,89 @@
 
   <!-- ===== HEADER SECTION ===== -->
   <header>
-    <!-- ✅ Replace with your name and current position
+    <!-- ✅ Replace with your name and current position -->
+    <h1>Julian MacKinnon</h1>
+    <p>Mechanical Engineering Student</p>
+  </header>
+
+  <!-- ===== NAVIGATION MENU ===== -->
+  <!-- ✅ Update the navigation links to match your sections or external pages -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ===== MAIN CONTENT AREA ===== -->
+  <main>
+
+    <!-- ✅ ABOUT SECTION -->
+    <section id="about">
+      <h2>About</h2>
+      <img src="images/profile1.JPG" alt="Profile Photo" width="150" height="200">
+      <p>I am a mechanical engineering student at The City College of New York. My research interests include manufacturing and simulation.</p>
+    </section>
+
+    <!-- ✅ RESEARCH OR PROJECTS SECTION -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <img src="images/wind_turbine.jpg" alt="Wind turbine nacelle design">
+        <div class="project-content">
+          <h3><a href="project1.html">Wind Turbine Nacelle Design</a></h3>
+          <p>Collaborated with a student team to design and optimize the nacelle of a wind turbine, including FEA analysis and assembly prototyping.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="images/lab_setup.jpg" alt="Laboratory test setup">
+        <div class="project-content">
+          <h3><a href="project2.html">Renewable Energy Lab Setup</a></h3>
+          <p>Designed and built experimental setups to test renewable energy systems.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ✅ PUBLICATIONS SECTION -->
+    <section id="publications">
+      <h2>Publications</h2>
+      <!-- Replace with your real publications -->
+      <ul>
+        <li><strong>“Paper Title 1”</strong>, Journal/Conference, Year.</li>
+        <li><strong>“Paper Title 2”</strong>, Journal/Conference, Year.</li>
+        <li><em>More publications coming soon...</em></li>
+      </ul>
+    </section>
+
+    <!-- ✅ CONTACT SECTION -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <!-- Update with your real contact info -->
+      <p>Office: [Address or Institution]</p>
+      <p>
+        <!-- Add or remove relevant professional links -->
+        Links: 
+        <a href="https://www.linkedin.com/in/julianmackinnon/">LinkedIn</a> | 
+        <a href="https://scholar.google.com/citations?user=XXXX">Google Scholar</a> |
+        <a href="https://github.com/yourusername">GitHub</a>
+      </p>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <!-- ✅ Update year and name -->
+    <p>© <span id="year"></span> Julian MacKinnon. All rights reserved.</p>
+  </footer>
+
+  <!-- ===== SIMPLE JAVASCRIPT ===== -->
+  <!-- This script auto-updates the year in the footer -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
