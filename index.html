@@ -4,117 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- ✅ Customize the title shown in the browser tab -->
+  <!-- Browser tab title -->
   <title>Julian MacKinnon</title>
 
-  <style>
-    /* ===== BASIC PAGE STYLING ===== */
-    body {
-      font-family: "Times New Roman, Times, serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
-    }
-
-    header {
-      background: #636363; /* ✅ Change header background color */
-      color: #f9f9f9;          /* ✅ Change header text color */
-      padding: 20px 10px;
-      text-align: center;
-    }
-
-    nav {
-      background: #A1A1A1; /* ✅ Adjust nav color if desired */
-      padding: 10px;
-      text-align: center;
-    }
-
-    nav a {
-      color: #f9f9f9;          /* ✅ Change link color */
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 0 10px;
-      background: #fff;
-    }
-
-    section {
-      margin-bottom: 40px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px 10px;
-      background: #eee;
-      color: #555;
-      font-size: 0.9em;
-    }
-  </style>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ===== HEADER SECTION ===== -->
+  <!-- ===== HEADER ===== -->
   <header>
-    <!-- ✅ Replace with your name and current position -->
     <h1>Julian MacKinnon</h1>
-    <p>Mechanical Engineering Student </p>
+    <p>Mechanical Engineering Student</p>
   </header>
 
-  <!-- ===== NAVIGATION MENU ===== -->
-  <!-- ✅ Update the navigation links to match your sections or external pages -->
+  <!-- ===== NAVIGATION ===== -->
   <nav>
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <!-- ===== MAIN CONTENT AREA ===== -->
+  <!-- ===== MAIN CONTENT ===== -->
   <main>
 
-    <!-- ✅ ABOUT SECTION -->
+    <!-- ===== ABOUT SECTION ===== -->
     <section id="about">
       <h2>About</h2>
-      <img src="images/profile1.JPG" alt="Profile Photo" width="150" height="200">
+      <img src="images/profile1.JPG" alt="Profile Photo">
       <p>I am a mechanical engineering student at The City College of New York. My research interests include manufacturing and simulation.</p>
     </section>
 
-    <!-- ✅ RESEARCH OR PROJECTS SECTION -->
-   <section id="projects">
-  <h2>Projects</h2>
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects">
+      <h2>Projects</h2>
 
-  <div class="project">
-    <img src="images/wind_turbine.jpg" alt="Wind turbine nacelle design">
-    <div class="project-content">
-      <h3><a href="project1.html">Wind Turbine Nacelle Design</a></h3>
-      <p>Collaborated with a student team to design and optimize the nacelle of a wind turbine, including FEA analysis and assembly prototyping.</p>
-    </div>
-  </div>
+      <div class="project">
+        <img src="images/wind_turbine.jpg" alt="Wind turbine nacelle design">
+        <div class="project-content">
+          <h3><a href="project1.html">Wind Turbine Nacelle Design</a></h3>
+          <p>Collaborated with a student team to design and optimize the nacelle of a wind turbine, including FEA analysis and assembly prototyping.</p>
+        </div>
+      </div>
 
-  <div class="project">
-    <img src="images/lab_setup.jpg" alt="Laboratory test setup">
-    <div class="project-content">
-      <h3><a href="project2.html">Renewable Energy Lab Setup</a></h3>
-      <p>Designed and built experimental setups to test renewable energy systems.</p>
-    </div>
-  </div>
+      <div class="project">
+        <img src="images/lab_setup.jpg" alt="Laboratory test setup">
+        <div class="project-content">
+          <h3><a href="project2.html">Renewable Energy Lab Setup</a></h3>
+          <p>Designed and built experimental setups to test renewable energy systems.</p>
+        </div>
+      </div>
 
-</section>
+    </section>
 
-    <!-- ✅ PUBLICATIONS SECTION -->
+    <!-- ===== PUBLICATIONS SECTION ===== -->
     <section id="publications">
       <h2>Publications</h2>
-      <!-- Replace with your real publications -->
       <ul>
         <li><strong>“Paper Title 1”</strong>, Journal/Conference, Year.</li>
         <li><strong>“Paper Title 2”</strong>, Journal/Conference, Year.</li>
@@ -122,13 +67,11 @@
       </ul>
     </section>
 
-    <!-- ✅ CONTACT SECTION -->
+    <!-- ===== CONTACT SECTION ===== -->
     <section id="contact">
       <h2>Contact</h2>
-      <!-- Update with your real contact info -->
       <p>Office: [Address or Institution]</p>
       <p>
-        <!-- Add or remove relevant professional links -->
         Links: 
         <a href="https://www.linkedin.com/in/julianmackinnon/">LinkedIn</a> | 
         <a href="https://scholar.google.com/citations?user=XXXX">Google Scholar</a> |
@@ -140,28 +83,13 @@
 
   <!-- ===== FOOTER ===== -->
   <footer>
-    <!-- ✅ Update year and name -->
     <p>© <span id="year"></span> Julian MacKinnon. All rights reserved.</p>
   </footer>
 
-  <!-- ===== SIMPLE JAVASCRIPT ===== -->
-  <!-- This script auto-updates the year in the footer -->
+  <!-- Auto-update year -->
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
