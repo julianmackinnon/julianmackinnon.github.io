@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- ✅ Customize the title shown in the browser tab -->
+  <title>Your Name</title>
+
+  <style>
+    /* ===== BASIC PAGE STYLING ===== */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #004466; /* ✅ Change header background color */
+      color: #fff;          /* ✅ Change header text color */
+      padding: 20px 10px;
+      text-align: center;
+    }
+
+    nav {
+      background: #003350; /* ✅ Adjust nav color if desired */
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;          /* ✅ Change link color */
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 10px;
+      background: #fff;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 10px;
+      background: #eee;
+      color: #555;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER SECTION ===== -->
+  <header>
+    <!-- ✅ Replace with your name and current position -->
+    <h1>Your Name</h1>
+    <p>Your Title / Role</p>
+  </header>
+
+  <!-- ===== NAVIGATION MENU ===== -->
+  <!-- ✅ Update the navigation links to match your sections or external pages -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ===== MAIN CONTENT AREA ===== -->
+  <main>
+
+    <!-- ✅ ABOUT SECTION -->
+    <section id="about">
+      <h2>About</h2>
+      <!-- Replace this paragraph with your bio, education, and interests -->
+      <p>I am a [position/title] at [institution/company]. My research interests include [topics].</p>
+    </section>
+
+    <!-- ✅ RESEARCH OR PROJECTS SECTION -->
+    <section id="research">
+      <h2>Research / Projects</h2>
+      <!-- Describe your current projects or areas of work -->
+      <p>My work focuses on [topic], exploring [methods or goals].</p>
+
+      <!-- Example of a project entry -->
+      <ul>
+        <li><strong>Project Title 1:</strong> Brief description of the project.</li>
+        <li><strong>Project Title 2:</strong> Another example of your work.</li>
+      </ul>
+    </section>
+
+    <!-- ✅ PUBLICATIONS SECTION -->
+    <section id="publications">
+      <h2>Publications</h2>
+      <!-- Replace with your real publications -->
+      <ul>
+        <li><strong>“Paper Title 1”</strong>, Journal/Conference, Year.</li>
+        <li><strong>“Paper Title 2”</strong>, Journal/Conference, Year.</li>
+        <li><em>More publications coming soon...</em></li>
+      </ul>
+    </section>
+
+    <!-- ✅ CONTACT SECTION -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <!-- Update with your real contact info -->
+      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+      <p>Office: [Address or Institution]</p>
+      <p>
+        <!-- Add or remove relevant professional links -->
+        Links: 
+        <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> | 
+        <a href="https://scholar.google.com/citations?user=XXXX">Google Scholar</a> |
+        <a href="https://github.com/yourusername">GitHub</a>
+      </p>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <!-- ✅ Update year and name -->
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <!-- ===== SIMPLE JAVASCRIPT ===== -->
+  <!-- This script auto-updates the year in the footer -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
