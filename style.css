@@ -27,6 +27,24 @@ header {
   text-align: center;
   font-size: 1em;
 }
+#theme-toggle {
+  background: none;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  float: right; /* places it on the right side of header */
+  margin: 5px;
+}
+
+#theme-toggle:hover {
+  background: var(--link-color);
+  color: #fff;
+  border-color: var(--link-color);
+}
+
 
 nav {
   background: #A1A1A1; /*  Adjust nav color if desired */
