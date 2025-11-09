@@ -29,13 +29,13 @@ header {
 }
 
 nav {
-  background: #A1A1A1; /* ✅ Adjust nav color if desired */
+  background: #A1A1A1; /*  Adjust nav color if desired */
   padding: 1px;
   text-align: center;
 }
 
 nav a {
-  color: #f9f9f9;      /* ✅ Change link color */
+  color: #f9f9f9;      /*  Change link color */
   margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
@@ -65,6 +65,27 @@ header h1 {
 header p {
   font-size: 0.9em; /* smaller subtitle text */
   margin: 0;         /* optional */
+}
+
+/* ABOUT SECTION */
+#about {
+  display: flex;           /* Side-by-side layout like projects */
+  align-items: center;     /* Vertically center image & text */
+  gap: 1em;                /* Match project spacing */
+  margin-bottom: 1em;      /* Consistent section spacing */
+}
+
+#about img {
+  flex-shrink: 0;          /* Prevent image from shrinking */
+  width: 150px;            /* Match image size to project thumbnails */
+  height: auto;            /* Maintain aspect ratio */
+  border-radius: 4px;      /* Optional: soften edges */
+}
+
+#about p {
+  flex: 1;                 /* Let text take remaining space */
+  line-height: 1.6;        /* Readable text */
+  color: var(--text-color);
 }
 
 /* PROJECT LAYOUT */
