@@ -115,3 +115,44 @@ footer {
   color: #555;
   font-size: 0.6em;
 }
+
+
+/* ===== DARK MODE ===== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #66b2ff;
+    --main-header-color: #111;
+    --secondary-color: #222;
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --link-color: #4da3ff;
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  header {
+    background: var(--main-header-color);
+    color: var(--text-color);
+  }
+
+  nav {
+    background: var(--secondary-color);
+  }
+
+  nav a {
+    color: var(--link-color);
+  }
+
+  main {
+    background: #1e1e1e;
+  }
+
+  footer {
+    background: #222;
+    color: #aaa;
+  }
+}
+
