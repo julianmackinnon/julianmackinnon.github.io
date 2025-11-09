@@ -8,110 +8,57 @@
   --font-main: "Times New Roman", Times, serif;
 }
 
-/* Header Spacing */
-header h1 {
-  margin-top: 10px;    /* reduce top space */
-  margin-bottom: 10px; /* reduce bottom space */
-  font-size: 2rem;     /* optional: smaller title */
-}
-
-
-/* General Body Styling */
+/* ===== BASIC PAGE STYLING ===== */
 body {
-  font-family: var(--font-main);
-  background-color: var(--background-color);
-  color: var(--text-color);
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
 }
 
-/* Links */
-a {
-  color: var(--link-color);
+header {
+  height: 20px;
+  background: #636363; /* ✅ Change header background color */
+  color: #f9f9f9;      /* ✅ Change header text color */
+  padding: 1px 1px;
+  text-align: center;
+  font-size: 1em;
+}
+
+nav {
+  background: #A1A1A1; /* ✅ Adjust nav color if desired */
+  padding: 1px;
+  text-align: center;
+}
+
+nav a {
+  color: #f9f9f9;      /* ✅ Change link color */
+  margin: 0 10px;
   text-decoration: none;
-}
-a:hover {
-  color: var(--primary-color);
+  font-weight: bold;
 }
 
-/* About Section */
-#about {
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
   max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  text-align: center;
+  margin: 20px auto;
+  padding: 0 10px;
+  background: #fff;
 }
 
-#about img {
-  width: 200px;
-  height: auto;
-  border-radius: 50%;
-  border: 3px solid var(--primary-color);
-  display: block;
-  margin: 0 auto 20px auto;
-}
-
-#about h2 {
-  color: var(--primary-color);
-  margin-bottom: 15px;
-}
-
-#about p {
-  font-size: 1.1rem;
-}
-
-/* Projects Section */
-#projects {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
-}
-
-#projects h2 {
-  color: var(--primary-color);
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.project {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+section {
   margin-bottom: 40px;
-  background-color: #fff;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.project img {
-  width: 200px;
-  height: auto;
-  border-radius: 8px;
-  margin-right: 20px;
-}
-
-.project-content {
-  flex: 1;
-}
-
-.project-content h3 {
-  margin-top: 0;
-  color: var(--secondary-color);
-}
-
-.project-content p {
-  margin-bottom: 0;
-}
-
-/* Responsive Images for Small Screens */
-@media (max-width: 600px) {
-  .project {
-    flex-direction: column;
-    text-align: center;
-  }
-  .project img {
-    margin: 0 0 15px 0;
-  }
+footer {
+  text-align: center;
+  padding: 20px 10px;
+  background: #eee;
+  color: #555;
+  font-size: 0.6em;
 }
