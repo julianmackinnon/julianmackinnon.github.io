@@ -136,7 +136,7 @@ footer {
 
 
 /* ===== DARK MODE ===== */
-/*@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --primary-color: #66b2ff;
     --main-header-color: #111;
@@ -175,7 +175,7 @@ footer {
 }
 
 /* ===== MANUAL DARK MODE ===== */
-.dark-mode {
+/* .dark-mode {
   --primary-color: #66b2ff;
   --main-header-color: #111;
   --secondary-color: #222;
@@ -188,5 +188,5 @@ footer {
   background-color: var(--background-color);
   color: var(--text-color);
 }
-
+*/
 
