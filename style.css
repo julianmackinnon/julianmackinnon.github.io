@@ -10,7 +10,7 @@
 
 /* ===== BASIC PAGE STYLING ===== */
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: var(--font-main);
   line-height: 1.6;
   margin: 0;
   padding: 0;
