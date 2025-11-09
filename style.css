@@ -56,7 +56,7 @@ nav a {
   color: #f9f9f9;      /*  Change link color */
   margin: 0 10px;
   text-decoration: none;
-  font-weight: bold;
+  
 }
 /* Prevent visited links from changing color */
 nav a:visited {
