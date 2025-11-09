@@ -58,6 +58,24 @@ nav a {
   text-decoration: none;
   
 }
+/* ===== GLOBAL LINK STYLING ===== */
+a {
+  color: var(--link-color);      /* normal link color */
+  text-decoration: none;         /* remove underline */
+}
+
+a:visited {
+  color: var(--link-color);      /* visited links keep same color */
+}
+
+a:hover {
+  text-decoration: underline;    /* optional hover effect */
+}
+
+a:active {
+  color: var(--link-color);      /* clicked state same as normal */
+}
+
 /* Prevent visited links from changing color */
 nav a:visited {
   color: #f9f9f9;      /* same as normal link color */
