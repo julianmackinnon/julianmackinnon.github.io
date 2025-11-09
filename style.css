@@ -174,3 +174,19 @@ footer {
   }
 }
 
+/* ===== MANUAL DARK MODE ===== */
+.dark-mode {
+  --primary-color: #66b2ff;
+  --main-header-color: #111;
+  --secondary-color: #222;
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --link-color: #4da3ff;
+}
+
+.dark-mode body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
