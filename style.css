@@ -1,6 +1,7 @@
 /* Global CSS Variables */
 :root {
   --primary-color: #004466;
+  --main-header-color: #1C1C1C;
   --secondary-color: #003350;
   --background-color: #f9f9f9;
   --text-color: #333333;
@@ -10,7 +11,7 @@
 
 /* ===== BASIC PAGE STYLING ===== */
 body {
-  font-family: var(--font-main);
+  font-family: var(--font-main);  /* uses the global variable for font*/
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -19,8 +20,8 @@ body {
 }
 
 header {
-  height: 20px;
-  background: #636363; /* ✅ Change header background color */
+  height: 40px;
+  background: var(--mainheadercolor); /* ✅ Change header background color */
   color: #f9f9f9;      /* ✅ Change header text color */
   padding: 1px 1px;
   text-align: center;
