@@ -55,6 +55,26 @@ section {
   margin-bottom: 40px;
 }
 
+/* PROJECT LAYOUT */
+.project {
+  display: flex;           /* Side-by-side layout */
+  align-items: center;     /* Vertically center image & text */
+  margin-bottom: 1em;      /* Space between projects */
+  gap: 1em;                /* Space between image and text */
+}
+
+.project img {
+  flex-shrink: 0;          /* Prevent image from shrinking */
+  width: 150px;            /* Set width */
+  height: auto;            /* Keep aspect ratio */
+}
+
+.project-content {
+  flex: 1;                 /* Text takes remaining space */
+}
+
+
+
 footer {
   text-align: center;
   padding: 20px 10px;
