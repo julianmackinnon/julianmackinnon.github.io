@@ -1,2 +1,3 @@
 # julianmackinnon.github.io
-Personal Site
+Personal Site for engineering projects
+
